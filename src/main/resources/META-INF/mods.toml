@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[36,)"
+loaderVersion = "[1,)"
 license = "LGPL-v3"
 
 [[mods]]
@@ -10,10 +10,3 @@ authors = "TeamPotato"
 description = '''
 Disable item cooldowns if the user are in creative mode.
 '''
-
-[[dependencies.letmeuseit]]
-modId = "forge"
-mandatory = true
-versionRange = "[36,)"
-ordering = "NONE"
-side = "BOTH"
